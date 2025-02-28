@@ -1,0 +1,259 @@
+*{
+   margin: 0;
+   padding: 0;
+    
+}
+.sidebar h2{
+    border: #111111 solid 2px;
+    text-align: center;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #111111;
+}
+.sidebar{
+    background-color:rgb(243, 245, 245);
+    width:150px;
+    padding: 3vh;
+    min-height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding:33px 0;
+    color: black;
+}
+.sidebar nav li a{
+    text-decoration :none ;
+    color: #111111;
+}
+.sidebar nav li a:hover{
+        text-decoration : underline;
+        
+}
+.main{
+    background-color:#090808;
+    width: 90vw;
+}
+.container{
+    display: flex;
+
+}
+.infocontainer{
+    background-color:#fffcfc;
+    height: 70vh;
+    width: 80vw;
+    margin: 124px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 76%;
+    transform: translate(-50%,-50%);
+}
+.circle:nth-child(1){
+background: linear-gradient(90deg,transparent 50%,#8b8888 50%);
+width : 30rem;
+}
+.circle:nth-child(2){
+background-image: url("sakshi..jpg");
+width: 20rem;
+background-size: 100%;
+background-repeat: no-repeat;
+border:2rem solid#fff;
+box-shadow: 
+0 0 1rem #fff,
+inset 0 0 1rem #fff,
+0 0 2rem rgb(69, 62, 44),
+inset 0 0 2rem rgb(69, 62, 44),
+0 0 4rem rgb(69, 62, 44),
+ inset  0 0 4rem rgb(69, 62, 44);
+}
+.devinfo h3 {
+    font-size:70px;
+}
+.devinfo h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.devinfo h2{
+    font-size: 20px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: #fff;
+    color: dodgerblue;
+}
+
+
+.contactform{
+    
+   
+    color:  #f1d7d7;
+    background-color: #111111;
+    border: 2px solid black;
+    border-radius: 12px;
+   margin: 52px 52px;
+   padding: 3px 350px;
+   font-size: 20px;
+   width: 533px;
+   text-align: center;
+   
+}
+.contactform h1{
+   padding: 12px 0;
+
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}  
+.contactform form div input{
+   width:35vw;
+   border-radius: 5px;
+   margin: 6px 0 0 0;
+   padding: 3px ;
+   
+}
+#emailHelp{
+    font-size: 11px;
+    color: mediumblue;
+    margin: 0 5px;
+    padding:3px 0 0 0;
+}
+#form-check{
+    flex-direction:row;
+}
+#form-check-input{
+    width:1px;
+    margin:3px ;
+}
+
+.buttons{
+    margin: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: #fff;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 17px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: dodgerblue;
+}
+
+h1{
+    margin:23px;
+}
+.main-intro{
+    background: rgb(15, 15, 15);
+    color: #f1d7d7;
+}
+.intro p{
+   margin: 52px 52px;
+   padding: 13px 350px;
+   font-size: 20px;
+   width: 633px;
+ 
+}
+.skillitem{
+   display: flex;   
+}
+.skillitem .skill{
+           width:253;
+           height: 6px;
+           background-color: blue;
+           border-radius: 2px solid white;
+}
+.skill{
+    width: 253px;
+    height: 6px;
+    background-color: red;
+    border-radius: 2px solid black;
+}
+.skillcontainer{
+    padding:  10px 412px;
+    align-items: center;
+    font-size: 23px;
+}
+.intro h1{
+    padding: 5px 512px;
+    font-size: 44px;
+}
+.intro h2{
+    padding:7px 512px;
+}
+.circle1:nth-child(1){
+    background: linear-gradient(90deg,transparent 50%,#f7f2f2 50%);
+    width : 30rem;
+}
+.resume{
+    background: #111111;
+    height: 1000px;
+    color: #fff;
+}
+.resume h2{
+    padding: 23px 33px;
+}
+.resume p{
+    padding:23px;
+    width: 2px 333px;
+}
+.resume h1{
+    padding: 2px 133px;
+    text-decoration: pink;
+}
+.resume li{
+    padding: 23px 133px;
+    list-style: none;
+    font-size: 23px;
+    text-decoration: underline;
+}
+.resume h2{
+    text-align: center;
+    font-size:33px;
+    text-decoration: underline;
+}
+.infocontainer img{
+   width:30rem
+}
+.link{
+    color: blue;
+    text-align: center;
+}
+.link h4{
+    color: #f1d7d7;
+}
+.link h3{
+    color:#f1d7d7
+}
